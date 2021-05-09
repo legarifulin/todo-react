@@ -6,7 +6,7 @@ const ToDo = ({todo, toggleTask, removeTask}) => {
                 {todo.task}
             </div>
             <div className = 'item-delete' onClick = {() => removeTask(todo.id)}>
-                x
+                X
             </div>
         </div>
     )
